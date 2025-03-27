@@ -20,25 +20,22 @@ OMDb API – Fetches movie data
 Tailwind CSS – UI styling with nativewind
 
 # 🛠️ Installation & Setup
-1️⃣ Clone the Repository
-    git clone https://github.com/apurvM790/MovieSearchApp.git
-    cd MovieSearchApp
-2️⃣ Install Dependencies
-    npm install
-3️⃣ Set Up Environment Variables
-    Create a .env file in the root directory and add your OMDb API key:
-    API_KEY=your_api_key_here
-    BASE_URL=https://www.omdbapi.com/
+- 1️⃣ Clone the Repository
+    - git clone https://github.com/apurvM790/MovieSearchApp.git
+    - cd MovieSearchApp
+- 2️⃣ Install Dependencies
+    - npm install
+- 3️⃣ Set Up Environment Variables
+    - Create a .env file in the root directory and add your OMDb API key:
+    - API_KEY=your_api_key_here
+    - BASE_URL="https://www.omdbapi.com/"
 
-Note: Since React Native does not support process.env directly, use expo-constants to access environment variables.
-
-4️⃣ Start the Application with Expo Go
-  📱 Run on Your Mobile Device
-  Install Expo Go from the Play Store (Android) or App Store (iOS).
-  Start the development server:
-  expo start
-  Scan the QR code displayed in your terminal or Expo Developer Tools using the Expo Go app.
-  The app will launch on your phone instantly.
+- 4️⃣ Start the Application with Expo Go Run on Your Mobile Device:
+  - Install Expo Go from the Play Store (Android) or App Store (iOS).
+  - Start the development server:
+  - expo start
+  - Scan the QR code displayed in your terminal or Expo Developer Tools using the Expo Go app.
+  - The app will launch on your phone instantly.
 
 
 # 📌 Approach
@@ -48,7 +45,7 @@ Note: Since React Native does not support process.env directly, use expo-constan
 - Optimized state management within functional components
 
 # 🚧 Challenges & Future Improvements
-🔹 Handling large datasets efficiently
-🔹 Implementing a better caching mechanism
-🔹 Enhancing UI animations for a smoother experience
+- 🔹 Handling large datasets efficiently
+- 🔹 Implementing a better caching mechanism
+- 🔹 Enhancing UI animations for a smoother experience
 
